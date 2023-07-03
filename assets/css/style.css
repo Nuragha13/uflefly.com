@@ -21,7 +21,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    background-color: #F0E9D2;
+    background-color: #F3F9FB;
   }
   /*
     5. Improve media defaults
@@ -95,12 +95,12 @@ a:hover::after{
     border-radius: 5px;
     border: 2px;
     background-color: #181D31;
-    color: #E6DDC4;
+    color: #F3F9FB;
     transition: 1s ease;
 }
 
 .btn:hover {
-    background-color: #F0E9D2;
+    background-color: #F3F9FB;
     /* border: 7px; */
     /* border-color: #181D31; */
     color: #181D31;
