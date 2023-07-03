@@ -9,6 +9,9 @@
   */
   * {
     margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
   }
   /*
     Typographic tweaks!
@@ -64,18 +67,31 @@ li {
 
 a {
     text-decoration: none;
-    color: #181D31;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    color: #181D31;  
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+a::before{
+  content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.25s ease-out;
+}
+a:hover::after{
+  color: #181D31;
+  text-decoration: underline;
+  width: 100%;
 }
 
 .btn {
     font-size: large;
     padding: 7px 14px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
     border-radius: 5px;
     border: 2px;
     background-color: #181D31;
@@ -103,9 +119,9 @@ img:hover {
 }
 
 .gridbox {
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 1fr
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 /* .gridbox {
