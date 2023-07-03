@@ -90,21 +90,21 @@ a:hover::after{
 
 .btn {
     font-size: large;
-    padding: 7px 14px;
+    padding: 5px 16px;
    
     border-radius: 5px;
     border: 2px;
     background-color: #181D31;
-    color: #E6DDC4;
+    color: #ECF2FF;
     transition: 1s ease;
 }
 
 .btn:hover {
-    background-color: #F0E9D2;
+    background-color: #ECF2FF;
     /* border: 7px; */
     /* border-color: #181D31; */
     color: #181D31;
-    transition: 0s ease;
+    transition: 1s ease;
     box-shadow: 0 0 0 1px #181D31;
 }
 
