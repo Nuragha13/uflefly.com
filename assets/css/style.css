@@ -9,8 +9,14 @@
     list-style: none;
     font-family: 'Roboto Mono', monospace;
   }
+  
+  /* html, body {
+    height: 100%;
+  } */
 
   body {
+    display: flex;
+    flex-direction: column;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     background-color: #F3F9FB;
@@ -34,6 +40,7 @@
   }
 
 .container {
+    flex: 1;
     margin: 0 auto;
     margin-top: 10px;
     width: 1440px;
@@ -179,8 +186,26 @@ nav {
 
 
 /* footer start */
-.footerbox {
+footer {
+  flex-shrink: 2;
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 1440px;
+  background-color: #F3F9FB;
+  padding: 20px 0; */
+}
+
+.footerboxen {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerboxend {
+  display: flex;
+  margin-top: 10px;
+  
 }
 
 .icon {
