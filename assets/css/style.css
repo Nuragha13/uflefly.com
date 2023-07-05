@@ -43,7 +43,7 @@
 
 /* button style start */
 .btn {
-  font-size: large;
+  font-size: medium;
   padding: 7px 14px;
  cursor: pointer;
   border-radius: 5px;
@@ -80,18 +80,13 @@
 /* header start */
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .contain {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.containtwo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .mail, .phone {
@@ -173,7 +168,7 @@ nav {
 
 .icon {
   margin-left: 10px;
-  transition: filter 0.1s;
+  transition: filter 0.4s;
 }
 
 #telegram {
