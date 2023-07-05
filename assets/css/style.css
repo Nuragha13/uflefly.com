@@ -115,18 +115,11 @@ nav {
   margin-left: 21px;
 }
 
-.entry{
-  width: 100%;
-  height: 500px;
-  background-color: #181D31;
-  /* border-radius: 50% / 0 0 0 -50%; */
-  position: absolute;
-  margin: 0px;
-  padding: 0px;
-}
 
-.alternative li {
-  color: #F3F9FB;
+/* footer start */
+
+.footerbox {
+  display: flex;
 }
 
 .icon {
@@ -164,3 +157,5 @@ nav {
 #instagram:hover {
   filter: grayscale(0%);
 }
+
+/* footer end */
