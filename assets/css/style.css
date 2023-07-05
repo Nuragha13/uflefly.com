@@ -103,7 +103,7 @@ a::before{
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: black;
+    background-color: #181D31;
     transition: width 0.25s ease-out;
 }
 
@@ -125,6 +125,21 @@ nav {
 }
 .item2, .item3, .item4, .item5 {
   margin-left: 21px;
+}
+
+.line::before {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Çizginin yüksekliği */
+  left: 0;
+  width: 0;
+  height: 2px; /* Çizginin kalınlığı */
+  background-color: #181D31; /* Çizgi rengi */
+  transition: width 0.40s; /* Çizginin genişleme süresi */
+}
+
+.line:hover::before {
+  width: 100%;
 }
 /* header end */
 
