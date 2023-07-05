@@ -91,11 +91,11 @@ a:hover::after{
     box-shadow: 0 0 0 1px #181D31;
 }
 
-img {
+.lognav {
     transition: 1s ease;
 }
 
-img:hover {
+.lognav:hover {
     box-shadow: 0 0 0 1px #181D31;
     border-radius: 10px;
     transition: 1s ease;
@@ -127,4 +127,40 @@ nav {
 
 .alternative li {
   color: #F3F9FB;
+}
+
+.icon {
+  transition: filter 0.1s;
+}
+
+#telegram {
+  filter: grayscale(100%);
+}
+
+#telegram:hover {
+  filter: grayscale(0%);
+}
+
+#linkedin {
+  filter: grayscale(100%);
+}
+
+#linkedin:hover {
+  filter: grayscale(0%);
+}
+
+#twitter {
+  filter: grayscale(100%);
+}
+
+#twitter:hover {
+  filter: grayscale(0%);
+}
+
+#instagram {
+  filter: grayscale(100%);
+}
+
+#instagram:hover {
+  filter: grayscale(0%);
 }
