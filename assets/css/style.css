@@ -45,7 +45,7 @@
 .btn {
   font-size: medium;
   padding: 7px 14px;
- cursor: pointer;
+  cursor: pointer;
   border-radius: 5px;
   border: 2px;
   background-color: #181D31;
@@ -55,11 +55,27 @@
 
 .btn:hover {
   background-color: #F3F9FB;
-  /* border: 7px; */
-  /* border-color: #181D31; */
   color: #181D31;
   transition: 0s ease;
   box-shadow: 0 0 0 1px #181D31;
+}
+
+.bt {
+  background-color: #DD4A48;
+  font-size: medium;
+  padding: 7px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px;
+  color: #F3F9FB;
+  transition: 1s ease;
+}
+
+.bt:hover {
+  color: #DD4A48;
+  background-color: #F3F9FB;
+  transition: 0s ease;
+  box-shadow: 0 0 0 1px #DD4A48;
 }
 /* button style end */
 
@@ -87,6 +103,7 @@ header {
 .contain {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .mail, .phone {
@@ -200,6 +217,22 @@ nav {
 }
 
 #instagram:hover {
+  filter: grayscale(0%);
+}
+
+#phone {
+  filter: grayscale(100%);
+}
+
+#phone:hover {
+  filter: grayscale(0%);
+}
+
+#mail {
+  filter: grayscale(100%);
+}
+
+#mail:hover {
   filter: grayscale(0%);
 }
 /* footer end */
