@@ -84,15 +84,17 @@ header {
 
 .contain {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .containtwo {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.mail {
+.mail, .phone {
   margin-left: 10px;
 }
 
@@ -135,6 +137,7 @@ a:hover::after{
 nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .gridbox {
@@ -149,7 +152,7 @@ nav {
 .line::before {
   content: "";
   position: absolute;
-  bottom: -2px; /* Çizginin yüksekliği */
+  bottom: 3px; /* Çizginin yüksekliği */
   left: 0;
   width: 0;
   height: 2px; /* Çizginin kalınlığı */
