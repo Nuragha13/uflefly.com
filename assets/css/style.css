@@ -268,11 +268,11 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #bec6db;
+  background-color: #F3F9FB;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #454644;
+  background-color: #678983;
   border-radius: 10px;
 }
 /* scrollbar end */
