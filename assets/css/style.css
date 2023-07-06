@@ -105,6 +105,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: #181D31 2px solid;
 }
 
 .contain {
@@ -187,13 +188,21 @@ nav {
 
 /* footer start */
 footer {
-  flex-shrink: 2;
-  /* position: fixed;
+  border-top: #181D31 4px solid;
+  /* flex-shrink: 2;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 1440px;
   background-color: #F3F9FB;
   padding: 20px 0; */
+}
+
+.footerbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: safe;
+  margin-top: 8px;
 }
 
 .footerboxen {
