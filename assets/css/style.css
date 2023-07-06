@@ -176,7 +176,7 @@ nav {
   left: 0;
   width: 0;
   height: 2px; /* Çizginin kalınlığı */
-  background-color: #181D31; /* Çizgi rengi */
+  background-color: #678983; /* Çizgi rengi */
   transition: width 0.40s; /* Çizginin genişleme süresi */
 }
 
