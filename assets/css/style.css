@@ -269,6 +269,21 @@ footer {
 #mail:hover {
   filter: grayscale(0%);
 }
+
+.linefooter::before {
+  content: "";
+  position: absolute;
+  bottom: 3px; /* Çizginin yüksekliği */
+  left: 0;
+  width: 0;
+  height: 2px; /* Çizginin kalınlığı */
+  background-color: #181D31; /* Çizgi rengi */
+  transition: width 0.40s; /* Çizginin genişleme süresi */
+}
+
+.linefooter:hover::before {
+  width: 100%;
+}
 /* footer end */
 
 /* scrollbar start */
