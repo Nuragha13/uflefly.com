@@ -189,6 +189,12 @@ nav {
 /* footer start */
 footer {
   border-top: #678983 4px solid;
+  position: static;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ 
   /* flex-shrink: 2;
   position: fixed;
   left: 0;
@@ -300,7 +306,19 @@ footer {
   border-radius: 10px;
 }
 /* scrollbar end */
+ /* .reklam {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 0;
+ } */
 
+.reklam {
+  position: sticky;
+  left: 0px;
+  right: 0px;
+}
 
 /* slaid */
 /* .slideshow {
