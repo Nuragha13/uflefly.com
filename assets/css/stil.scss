@@ -97,17 +97,17 @@
       }
   
       .slide1 {
-        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/ticket.png);
+        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, #F3F9FB 100%), url(fon/ticket.png);
         // background-image: url(../img/slideshow/hero-1.jpg);
         animation: 20s slides-set-1 -0.2s infinite;
       }
       .slide2 {
-        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/Hotel.png);
+        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, #F3F9FB 100%), url(fon/Hotel.png);
         // background-image: url(../img/slideshow/hero-2.jpg);
         animation: 20s slides-set-2 -0.2s infinite;
       }
       .slide3 {
-        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/ticket.png);
+        background-image: linear-gradient(to bottom, rgba(200,200,75,0.25) 0, #F3F9FB 100%), url(fon/ticket.png);
         // background-image: url(../img/slideshow/hero-3.jpg);
         animation: 20s slides-set-3 -0.2s infinite;
       }

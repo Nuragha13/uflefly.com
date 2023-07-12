@@ -87,15 +87,15 @@
   animation: 14s slideshow-contrast -5s infinite;
 }
 .slideshow--contrast .slide1 {
-  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/ticket.png);
+  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, #F3F9FB 100%), url(fon/ticket.png);
   animation: 20s slides-set-1 -0.2s infinite;
 }
 .slideshow--contrast .slide2 {
-  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/Hotel.png);
+  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, #F3F9FB 100%), url(fon/Hotel.png);
   animation: 20s slides-set-2 -0.2s infinite;
 }
 .slideshow--contrast .slide3 {
-  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, rgba(66, 92, 140, 0.5) 100%), url(fon/ticket.png);
+  background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, #F3F9FB 100%), url(fon/ticket.png);
   animation: 20s slides-set-3 -0.2s infinite;
 }
 .slideshow--contrast--after {
