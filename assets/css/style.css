@@ -15,11 +15,16 @@
   } */
 
   body {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
     background-color: #F3F9FB;
+  }
+
+  .direkt {
+    display: flex;
+    gap: 100%;
   }
 
   img, picture, video, canvas, svg {
