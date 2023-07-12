@@ -66,6 +66,7 @@
 }
 .slideshow--contrast .slide {
   filter: blur(3px);
+  background-size: cover;
 }
 .slideshow--contrast--before {
   left: 0;
