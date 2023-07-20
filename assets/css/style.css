@@ -23,7 +23,9 @@
   }
 
   .direkt {
-    display: flex;
+    position: relative;
+    width: 100vh;
+    left: 0;
   }
 
   img, picture, video, canvas, svg {
